@@ -27,7 +27,7 @@
 
         app:layout_constraintEnd_toStartOf="@id/button_3"
         app:layout_constraintHorizontal_weight="2"
-        app:layout_constraintTop_toTopOf="@id/button_1" p
+        app:layout_constraintTop_toTopOf="@id/button_1"
         app:layout_constraintStart_toEndOf="@id/button_1"
         app:layout_constraintStart_toTopOf="@id/button_3" />
 
