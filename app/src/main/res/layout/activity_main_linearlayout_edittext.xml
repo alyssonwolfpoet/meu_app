@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:hint="Digite aqui seu texto simples"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="Digite aqui seus números"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:hint="Digite aqui seu senha"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textAutoComplete"
+        android:hint="Digite aqui seu texto e veja as opcoes para completar"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textAutoCorrect"
+        android:hint="Digite aqui seu texto e veja as possiveis correçoes"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"
+        android:hint="Digite aqui seu email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"
+        android:hint="Digite aqui seu texto em varias linhas"
+        />
+
+</LinearLayout>
