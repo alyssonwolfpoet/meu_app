@@ -7,13 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:paddingStart="6dp"
-        android:text="Estudar android"
-        android:textColor="#25BF20"
-        android:textSize="22sp" />
+    <ImageView
+        android:src="@drawable/baseline_android_24"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="32dp"
+        app:tint="#ccc" />
+    <ImageView
+        android:src="@drawable/baseline_book_online_24"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="32dp"
+        app:tint="#131313" />
 
 </LinearLayout>
