@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:lineSpacingExtra="16dp"
+        android:text="Hello World! is Universe Hello World! is Universe"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#368FCA"
+        android:textSize="26sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
